@@ -1,15 +1,7 @@
-All checks green — no notification needed.
-
 HEARTBEAT_OK · STATUS_PAGE=OK
 
 ## Summary
-- P0: heartbeat self-state healthy (last_success 2026-05-30T14:06:21Z, 6/6 runs, 100% success rate). No failed/stuck/chronic skills.
-- P1: No open PRs; repo issues disabled.
-- P2: No flagged items in MEMORY.md.
-- P3: Only heartbeat is enabled in `aeon.yml`; it's running on schedule.
-- No open issues in `memory/issues/INDEX.md`.
-- No `articles/token-report-*.md` exists → Token pulse section omitted per skill rules.
-- Regenerated `docs/status.md` (Overall 🟢 OK, next scheduled run 08:00 UTC tomorrow).
-- Appended 20:00 slot entry to `memory/logs/2026-05-30.md`.
-
-Files modified: `docs/status.md`, `memory/logs/2026-05-30.md`.
+- P0–P3 checks all green: heartbeat self-state healthy (7/7 success, last_success 11h ago), no open PRs, repo issues disabled, no open INDEX.md items, no flagged memory.
+- Regenerated `docs/status.md` (Overall 🟢 OK, next run 14:00 UTC).
+- Appended log entry to `memory/logs/2026-05-31.md`.
+- No notification sent (nothing needs attention).
